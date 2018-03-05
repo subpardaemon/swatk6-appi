@@ -1,0 +1,34 @@
+{
+  "name": "@swatk6/appi",
+  "version": "0.1.0",
+  "description": "An application API baseclass",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subpardaemon/swatk6-appi.git",
+    "web": "https://github.com/subpardaemon/swatk6-appi/tree/master"
+  },
+  "keywords": [
+    "API",
+    "application",
+    "modular",
+    "event"
+  ],
+  "author": "Andras Kemeny <subpardaemon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subpardaemon/swatk6-appi/issues"
+  },
+  "dependencies": {
+    "@swatk6/emitter": "^1.1.0"
+  },
+  "devDependencies": {
+    "@swatk6/tester": "^1.1.0"
+  },
+  "optionalDependencies": {
+    "@swatk6/logger": "^1.5.0"
+  }
+}
